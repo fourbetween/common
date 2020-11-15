@@ -1,8 +1,15 @@
 {
-  "name": "common",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@fourbetween/common",
+  "version": "0.1.4",
+  "private": false,
   "main": "dist/common-component.common.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fourbetween/common.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

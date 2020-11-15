@@ -5,7 +5,7 @@ import component from "./components/CommonComponent.vue";
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("CommonComponent", component);
+  Vue.component(component.name, component);
 }
 
 // Vue.use() のためのモジュール定義を作成
